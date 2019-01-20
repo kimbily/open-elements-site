@@ -1,0 +1,1069 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FtpData" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FtpData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LocalPath" type="xs:string" />
+                <xs:element name="Index" type="xs:int" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="Size" type="xs:int" minOccurs="0" />
+                <xs:element name="Command" type="xs:string" minOccurs="0" />
+                <xs:element name="Progress" type="xs:int" minOccurs="0" />
+                <xs:element name="Retry" type="xs:int" minOccurs="0" />
+                <xs:element name="Success" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//FtpData" />
+        <xs:field xpath="LocalPath" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\.htaccess</LocalPath>
+    <Index>1</Index>
+    <Path>Backup/.htaccess</Path>
+    <Size>33</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\Data\.htaccess</LocalPath>
+    <Index>2</Index>
+    <Path>Data/.htaccess</Path>
+    <Size>13</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\Common\oe.min.js</LocalPath>
+    <Index>3</Index>
+    <Path>WEFiles/Client/Common/oe.min.js</Path>
+    <Size>16317</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\Plugins\jquery.form.js</LocalPath>
+    <Index>4</Index>
+    <Path>WEFiles/Client/jQuery/Plugins/jquery.form.js</Path>
+    <Size>11659</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\Plugins\jquery.ui.core.js</LocalPath>
+    <Index>5</Index>
+    <Path>WEFiles/Client/jQuery/Plugins/jquery.ui.core.js</Path>
+    <Size>19590</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\Plugins\jquery.ui.effects.js</LocalPath>
+    <Index>6</Index>
+    <Path>WEFiles/Client/jQuery/Plugins/jquery.ui.effects.js</Path>
+    <Size>25199</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\1.10.2.js</LocalPath>
+    <Index>7</Index>
+    <Path>WEFiles/Client/jQuery/1.10.2.js</Path>
+    <Size>93107</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\migrate.js</LocalPath>
+    <Index>8</Index>
+    <Path>WEFiles/Client/jQuery/migrate.js</Path>
+    <Size>7202</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\OEDB.js</LocalPath>
+    <Index>9</Index>
+    <Path>WEFiles/Client/OEDB.js</Path>
+    <Size>1856</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\OEDBClasses.js</LocalPath>
+    <Index>10</Index>
+    <Path>WEFiles/Client/OEDBClasses.js</Path>
+    <Size>2280</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\opentip-jquery.min.js</LocalPath>
+    <Index>11</Index>
+    <Path>WEFiles/Client/opentip-jquery.min.js</Path>
+    <Size>44974</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\v01\openElement.css</LocalPath>
+    <Index>12</Index>
+    <Path>WEFiles/Css/v01/openElement.css</Path>
+    <Size>5851</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\v02\openElement.css</LocalPath>
+    <Index>13</Index>
+    <Path>WEFiles/Css/v02/openElement.css</Path>
+    <Size>6102</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\v02\openElement.int.css</LocalPath>
+    <Index>14</Index>
+    <Path>WEFiles/Css/v02/openElement.int.css</Path>
+    <Size>6177</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\ie7.css</LocalPath>
+    <Index>15</Index>
+    <Path>WEFiles/Css/ie7.css</Path>
+    <Size>833</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\opentip.css</LocalPath>
+    <Index>16</Index>
+    <Path>WEFiles/Css/opentip.css</Path>
+    <Size>9211</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Code.png</LocalPath>
+    <Index>17</Index>
+    <Path>WEFiles/Image/Code.png</Path>
+    <Size>831</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\delete.png</LocalPath>
+    <Index>18</Index>
+    <Path>WEFiles/Image/delete.png</Path>
+    <Size>1465</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\empty.png</LocalPath>
+    <Index>19</Index>
+    <Path>WEFiles/Image/empty.png</Path>
+    <Size>184</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\information2.png</LocalPath>
+    <Index>20</Index>
+    <Path>WEFiles/Image/information2.png</Path>
+    <Size>3246</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\loading.gif</LocalPath>
+    <Index>21</Index>
+    <Path>WEFiles/Image/loading.gif</Path>
+    <Size>1924</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Loading2.gif</LocalPath>
+    <Index>22</Index>
+    <Path>WEFiles/Image/Loading2.gif</Path>
+    <Size>4941</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\mask.png</LocalPath>
+    <Index>23</Index>
+    <Path>WEFiles/Image/mask.png</Path>
+    <Size>213</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\ModalBackgound.png</LocalPath>
+    <Index>24</Index>
+    <Path>WEFiles/Image/ModalBackgound.png</Path>
+    <Size>27145</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\ModalPopupBlock.png</LocalPath>
+    <Index>25</Index>
+    <Path>WEFiles/Image/ModalPopupBlock.png</Path>
+    <Size>268</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\ServerError.png</LocalPath>
+    <Index>26</Index>
+    <Path>WEFiles/Image/ServerError.png</Path>
+    <Size>2602</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\warning.png</LocalPath>
+    <Index>27</Index>
+    <Path>WEFiles/Image/warning.png</Path>
+    <Size>816</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\WEW3C.png</LocalPath>
+    <Index>28</Index>
+    <Path>WEFiles/Image/WEW3C.png</Path>
+    <Size>1882</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\class\class-phpmailer.php</LocalPath>
+    <Index>29</Index>
+    <Path>WEFiles/Server/class/class-phpmailer.php</Path>
+    <Size>65668</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\class\class-smtp.php</LocalPath>
+    <Index>30</Index>
+    <Path>WEFiles/Server/class/class-smtp.php</Path>
+    <Size>32456</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\DBTools\OEDataContainers.php</LocalPath>
+    <Index>31</Index>
+    <Path>WEFiles/Server/DB/DBTools/OEDataContainers.php</Path>
+    <Size>57685</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\DBTools\OEDBRequest.php</LocalPath>
+    <Index>32</Index>
+    <Path>WEFiles/Server/DB/DBTools/OEDBRequest.php</Path>
+    <Size>36412</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\DBTools\OEDynUtils.php</LocalPath>
+    <Index>33</Index>
+    <Path>WEFiles/Server/DB/DBTools/OEDynUtils.php</Path>
+    <Size>15107</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\.htaccess</LocalPath>
+    <Index>34</Index>
+    <Path>WEFiles/Server/DB/.htaccess</Path>
+    <Size>13</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\OEDB.php</LocalPath>
+    <Index>35</Index>
+    <Path>WEFiles/Server/DB/OEDB.php</Path>
+    <Size>28741</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\OEDBClasses.php</LocalPath>
+    <Index>36</Index>
+    <Path>WEFiles/Server/DB/OEDBClasses.php</Path>
+    <Size>84483</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\DB\sqllogin.php</LocalPath>
+    <Index>37</Index>
+    <Path>WEFiles/Server/DB/sqllogin.php</Path>
+    <Size>1479</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\language\phpmailer.lang-en.php</LocalPath>
+    <Index>38</Index>
+    <Path>WEFiles/Server/language/phpmailer.lang-en.php</Path>
+    <Size>1188</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\language\phpmailer.lang-fr.php</LocalPath>
+    <Index>39</Index>
+    <Path>WEFiles/Server/language/phpmailer.lang-fr.php</Path>
+    <Size>1297</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\openElement.php</LocalPath>
+    <Index>40</Index>
+    <Path>WEFiles/Server/openElement.php</Path>
+    <Size>13870</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\VarText.php</LocalPath>
+    <Index>41</Index>
+    <Path>WEFiles/Server/VarText.php</Path>
+    <Size>4496</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\.htaccess</LocalPath>
+    <Index>42</Index>
+    <Path>.htaccess</Path>
+    <Size>0</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-admin-v1(var).php</LocalPath>
+    <Index>43</Index>
+    <Path>oe-users/user-admin-v1(var).php</Path>
+    <Size>35462</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-admin-v1.css</LocalPath>
+    <Index>44</Index>
+    <Path>oe-users/user-admin-v1.css</Path>
+    <Size>4720</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\oe-users\user-admin-v1.dat</LocalPath>
+    <Index>45</Index>
+    <Path>Backup/oe-users/user-admin-v1.dat</Path>
+    <Size>1216810</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-admin-v1.php</LocalPath>
+    <Index>46</Index>
+    <Path>oe-users/user-admin-v1.php</Path>
+    <Size>9958</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-login(connect)-v1(var).js</LocalPath>
+    <Index>47</Index>
+    <Path>oe-users/user-login(connect)-v1(var).js</Path>
+    <Size>398</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-login(connect)-v1(var).php</LocalPath>
+    <Index>48</Index>
+    <Path>oe-users/user-login(connect)-v1(var).php</Path>
+    <Size>32525</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-login(connect)-v1.css</LocalPath>
+    <Index>49</Index>
+    <Path>oe-users/user-login(connect)-v1.css</Path>
+    <Size>3025</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\WESendForm-v210.js</LocalPath>
+    <Index>50</Index>
+    <Path>WEFiles/Client/WESendForm-v210.js</Path>
+    <Size>3846</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\26c70838.png</LocalPath>
+    <Index>51</Index>
+    <Path>WEFiles/Image/Skin/26c70838.png</Path>
+    <Size>162</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\58294202.png</LocalPath>
+    <Index>52</Index>
+    <Path>WEFiles/Image/Skin/58294202.png</Path>
+    <Size>772</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\c3939802.png</LocalPath>
+    <Index>53</Index>
+    <Path>WEFiles/Image/Skin/c3939802.png</Path>
+    <Size>162</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\63d93d51.png</LocalPath>
+    <Index>54</Index>
+    <Path>WEFiles/Image/Skin/63d93d51.png</Path>
+    <Size>772</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\oe-users\user-login(connect)-v1.dat</LocalPath>
+    <Index>55</Index>
+    <Path>Backup/oe-users/user-login(connect)-v1.dat</Path>
+    <Size>837617</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-login(connect)-v1.php</LocalPath>
+    <Index>56</Index>
+    <Path>oe-users/user-login(connect)-v1.php</Path>
+    <Size>8715</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-new-account-v1(var).js</LocalPath>
+    <Index>57</Index>
+    <Path>oe-users/user-new-account-v1(var).js</Path>
+    <Size>1018</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-new-account-v1(var).php</LocalPath>
+    <Index>58</Index>
+    <Path>oe-users/user-new-account-v1(var).php</Path>
+    <Size>46482</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-new-account-v1.css</LocalPath>
+    <Index>59</Index>
+    <Path>oe-users/user-new-account-v1.css</Path>
+    <Size>8908</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\cbb1ae94.png</LocalPath>
+    <Index>60</Index>
+    <Path>WEFiles/Image/Skin/cbb1ae94.png</Path>
+    <Size>162</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\966687aa.png</LocalPath>
+    <Index>61</Index>
+    <Path>WEFiles/Image/Skin/966687aa.png</Path>
+    <Size>772</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Font\luggerbu.ttf</LocalPath>
+    <Index>62</Index>
+    <Path>WEFiles/Font/luggerbu.ttf</Path>
+    <Size>28348</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\4c4551b4.png</LocalPath>
+    <Index>63</Index>
+    <Path>WEFiles/Image/Skin/4c4551b4.png</Path>
+    <Size>472</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\WECaptcha-v210.js</LocalPath>
+    <Index>64</Index>
+    <Path>WEFiles/Client/WECaptcha-v210.js</Path>
+    <Size>1413</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\WECaptcha\WECaptcha.cfg-v210.php</LocalPath>
+    <Index>65</Index>
+    <Path>WEFiles/Server/WECaptcha/WECaptcha.cfg-v210.php</Path>
+    <Size>11087</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\WECaptcha\WECaptcha.fct-v210.php</LocalPath>
+    <Index>66</Index>
+    <Path>WEFiles/Server/WECaptcha/WECaptcha.fct-v210.php</Path>
+    <Size>3372</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\WECaptcha\WECaptcha.inc-v210.php</LocalPath>
+    <Index>67</Index>
+    <Path>WEFiles/Server/WECaptcha/WECaptcha.inc-v210.php</Path>
+    <Size>11928</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\WECaptcha\WECaptchabase-v210.php</LocalPath>
+    <Index>68</Index>
+    <Path>WEFiles/Server/WECaptcha/WECaptchabase-v210.php</Path>
+    <Size>1296</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Server\WECaptcha\WECaptcha-v210.php</LocalPath>
+    <Index>69</Index>
+    <Path>WEFiles/Server/WECaptcha/WECaptcha-v210.php</Path>
+    <Size>1740</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\c01bce0b.png</LocalPath>
+    <Index>70</Index>
+    <Path>WEFiles/Image/Skin/c01bce0b.png</Path>
+    <Size>162</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Image\Skin\3b9d0c7d.png</LocalPath>
+    <Index>71</Index>
+    <Path>WEFiles/Image/Skin/3b9d0c7d.png</Path>
+    <Size>772</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\oe-users\user-new-account-v1.dat</LocalPath>
+    <Index>72</Index>
+    <Path>Backup/oe-users/user-new-account-v1.dat</Path>
+    <Size>1912105</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-new-account-v1.php</LocalPath>
+    <Index>73</Index>
+    <Path>oe-users/user-new-account-v1.php</Path>
+    <Size>24364</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-profile-edit-v1(var).js</LocalPath>
+    <Index>74</Index>
+    <Path>oe-users/user-profile-edit-v1(var).js</Path>
+    <Size>2508</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-profile-edit-v1(var).php</LocalPath>
+    <Index>75</Index>
+    <Path>oe-users/user-profile-edit-v1(var).php</Path>
+    <Size>65372</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-profile-edit-v1.css</LocalPath>
+    <Index>76</Index>
+    <Path>oe-users/user-profile-edit-v1.css</Path>
+    <Size>8227</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Css\WEAccordion-v21.css</LocalPath>
+    <Index>77</Index>
+    <Path>WEFiles/Css/WEAccordion-v21.css</Path>
+    <Size>480</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\jQuery\Plugins\jquery.ui.accordion-v21.js</LocalPath>
+    <Index>78</Index>
+    <Path>WEFiles/Client/jQuery/Plugins/jquery.ui.accordion-v21.js</Path>
+    <Size>8367</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\WEFiles\Client\WEAccordion-v21.js</LocalPath>
+    <Index>79</Index>
+    <Path>WEFiles/Client/WEAccordion-v21.js</Path>
+    <Size>3192</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\oe-users\user-profile-edit-v1.dat</LocalPath>
+    <Index>80</Index>
+    <Path>Backup/oe-users/user-profile-edit-v1.dat</Path>
+    <Size>2174021</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\oe-users\user-profile-edit-v1.php</LocalPath>
+    <Index>81</Index>
+    <Path>oe-users/user-profile-edit-v1.php</Path>
+    <Size>29240</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\index(var).js</LocalPath>
+    <Index>82</Index>
+    <Path>index(var).js</Path>
+    <Size>399</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\index(var).php</LocalPath>
+    <Index>83</Index>
+    <Path>index(var).php</Path>
+    <Size>6989</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\index.css</LocalPath>
+    <Index>84</Index>
+    <Path>index.css</Path>
+    <Size>2955</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\Files\Image\Opera Snapshot_2019-01-12_183516_meet-sexy-singles-fhio-xyz.png</LocalPath>
+    <Index>85</Index>
+    <Path>Files/Image/Opera Snapshot_2019-01-12_183516_meet-sexy-singles-fhio-xyz.png</Path>
+    <Size>560498</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\index.dat</LocalPath>
+    <Index>86</Index>
+    <Path>Backup/index.dat</Path>
+    <Size>569417</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\index.php</LocalPath>
+    <Index>87</Index>
+    <Path>index.php</Path>
+    <Size>7094</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\robots.txt</LocalPath>
+    <Index>88</Index>
+    <Path>robots.txt</Path>
+    <Size>52</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\sitemap.xml</LocalPath>
+    <Index>89</Index>
+    <Path>sitemap.xml</Path>
+    <Size>1221</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test\Templates\Base.css</LocalPath>
+    <Index>90</Index>
+    <Path>Templates/Base.css</Path>
+    <Size>477</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Templates\Base.tdat</LocalPath>
+    <Index>91</Index>
+    <Path>Backup/Templates/Base.tdat</Path>
+    <Size>61427</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\DataFileSyncFtp.xml</LocalPath>
+    <Index>92</Index>
+    <Path>Backup/Common/DataFileSyncFtp.xml</Path>
+    <Size>6870</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\FTPLog.txt</LocalPath>
+    <Index>93</Index>
+    <Path>Backup/Common/FTPLog.txt</Path>
+    <Size>6659</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\Garbage.cfg</LocalPath>
+    <Index>94</Index>
+    <Path>Backup/Common/Garbage.cfg</Path>
+    <Size>348</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\Linkmap.cfg</LocalPath>
+    <Index>95</Index>
+    <Path>Backup/Common/Linkmap.cfg</Path>
+    <Size>106244</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\Lock.cfg</LocalPath>
+    <Index>96</Index>
+    <Path>Backup/Common/Lock.cfg</Path>
+    <Size>441</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\OEGuideline.cfg</LocalPath>
+    <Index>97</Index>
+    <Path>Backup/Common/OEGuideline.cfg</Path>
+    <Size>324141</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\Palette.xml</LocalPath>
+    <Index>98</Index>
+    <Path>Backup/Common/Palette.xml</Path>
+    <Size>295</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\Palette.xml.upd</LocalPath>
+    <Index>99</Index>
+    <Path>Backup/Common/Palette.xml.upd</Path>
+    <Size>9</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\SiteConfig.cfg</LocalPath>
+    <Index>100</Index>
+    <Path>Backup/Common/SiteConfig.cfg</Path>
+    <Size>38559</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\UploadAllFileList.cfg</LocalPath>
+    <Index>101</Index>
+    <Path>Backup/Common/UploadAllFileList.cfg</Path>
+    <Size>11128</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\User.cfg</LocalPath>
+    <Index>102</Index>
+    <Path>Backup/Common/User.cfg</Path>
+    <Size>590</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\Common\DB\DBStructure.dbt</LocalPath>
+    <Index>103</Index>
+    <Path>Backup/Common/DB/DBStructure.dbt</Path>
+    <Size>29821</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\User\AppData\Local\Temp\openElementFtp\50 WEBS test_Backup\Backup\50 WEBS test.ope</LocalPath>
+    <Index>104</Index>
+    <Path>Backup/50 WEBS test.ope</Path>
+    <Size>3606</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+</NewDataSet>
